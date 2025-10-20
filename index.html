@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Mukungi Kithome | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <h2 class="logo">Benjamin K.</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Benjamin Mukungi Kithome</h1>
+            <p>Aspiring Software Engineer Crafting Digital Solutions</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a motivated Bachelor of Software Engineering student at JKUAT with a strong foundation in front-end development. I'm passionate about creating clean, functional websites and applications using HTML, CSS, and JavaScript. I'm a friendly, reliable team player who is always eager to take on new challenges and learn from experienced developers in a professional environment.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Responsive Design</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-language"></i>
+                    <span>English & Kiswahili</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1: To-Do List App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="todo-app-preview">
+                            <h4>My Todo List</h4>
+                            <div class="todo-input">
+                                <input type="text" id="previewInput" placeholder="Add a new task..." readonly>
+                                <button class="add-btn" onclick="addPreviewTask()">+</button>
+                            </div>
+                            <ul class="todo-list" id="previewList">
+                                <li>Create portfolio website</li>
+                                <li class="completed">Learn JavaScript arrays</li>
+                                <li>Deploy first project</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Todo List</h3>
+                        <p>A clean, responsive task management application built with vanilla JavaScript. Features add, delete, and mark-complete functionality with local storage persistence.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Portfolio Site -->
+                <div class="project-card">
+                    <div class="project-image portfolio-preview">
+                        <div class="browser-bar">
+                            <div class="browser-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="portfolio-preview-content">
+                            <div class="preview-hero">
+                                <h4>Benjamin K.</h4>
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A fully responsive portfolio website showcasing my projects and skills. Features modern design, smooth scrolling, and mobile-first responsive layout.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new opportunities, projects, and ideas.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:benjaminkithome2021@gmail.com">benjaminkithome2021@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+254 708 982 534</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="#">LinkedIn Profile</a>
+                </div>
+            </div>
+            <a href="mailto:benjaminkithome2021@gmail.com" class="cta-button">Send me an Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Benjamin Mukungi Kithome. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
