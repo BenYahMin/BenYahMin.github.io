@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WatchElegance | Premium Timepieces</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <h2>WatchElegance</h2>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Watches</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+          <button class="cart-icon" id="cartIcon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <div class="hamburger">
+            <!-- hii ni ya kuweka dash space tatu -->
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Timeless Elegance on Your Wrist</h1>
+        <p>
+          Discover our exclusive collection of premium watches that combine
+          style, precision, and craftsmanship.
+        </p>
+        <a href="#products" class="cta-button">Shop Collection</a>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Our Collection</h2>
+        <div class="products-grid" id="productsGrid">
+          <!-- Products will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About WatchElegance</h2>
+            <p>
+              We are passionate about bringing you the finest timepieces from
+              around the world. Each watch in our collection is carefully
+              selected for its quality, design, and craftsmanship.
+            </p>
+            <div class="features">
+              <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>1 Year Warranty</h3>
+                <p>All watches come with full manufacturer warranty</p>
+              </div>
+              <div class="feature">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Free Delivery</h3>
+                <p>Free shipping within Nairobi on orders over KES 5,000</p>
+              </div>
+              <div class="feature">
+                <i class="fas fa-undo"></i>
+                <h3>14-Day Returns</h3>
+                <p>Not satisfied? Return within 14 days for a full refund</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+254 708 982 534</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>benjaminkithome2021@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Visit Us</h3>
+                <p>Nairobi, Kenya</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <input type="tel" placeholder="Your Phone" />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <div class="cart-overlay" id="cartOverlay">
+      <div class="cart-sidebar">
+        <div class="cart-header">
+          <h3>Your Cart</h3>
+          <button class="close-cart" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+          <!-- Cart items will appear here -->
+        </div>
+        <div class="cart-total">
+          <h4>Total: KES <span id="cartTotal">0</span></h4>
+          <button class="checkout-btn" id="checkoutBtn">
+            Proceed to Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>WatchElegance</h3>
+            <p>Your trusted partner for premium timepieces in Kenya.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Watches</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Connect</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 WatchElegance. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
