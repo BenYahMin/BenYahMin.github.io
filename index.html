@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Mukungi | Web Developer & Software Engineer</title>
     
-    <meta name="description" content="Portfolio of Benjamin Mukungi, Software Engineering student at JKUAT. Specialist in Web Dev, Python, and C++.">
+    <meta name="description" content="Portfolio of Benjamin Mukungi, Software Engineering student at JKUAT. Specialist in Web Dev, Python, R, and C++.">
     <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/code.png">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -25,12 +25,12 @@
     <header class="hero">
         <div class="hero-content">
             <h1>Building solutions with <span class="highlight">code.</span></h1>
-            <p>Statistics student at JKUAT prolific in Frontend development and with expertise in Python, R, C++, and Bash.</p>
+            <p>Software Engineering student at JKUAT. Bridging Web Development with Data Science and Systems Engineering.</p>
             <div class="cta-buttons">
                 <a href="https://github.com/benyahmin" target="_blank" class="btn github-btn">
-    <i class="fab fa-github"></i> Visit My GitHub
-</a>
-                <a href="mailto:benjaminkithome2021@gmail.com" class="btn secondary">Get In Touch</a>
+                    <i class="fab fa-github"></i> Visit My GitHub
+                </a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
             </div>
         </div>
     </header>
@@ -42,55 +42,123 @@
                 <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
                 <p>bash — 80x24</p>
             </div>
-           <div class="terminal-body">
-    <p><span class="prompt">user@jkuat:~$</span> cat about_me.md</p>
-    <p>I am a developer bridging the gap between high-level web interfaces and low-level system scripts. I master <strong>HTML/CSS/JS</strong>, <strong>C++</strong>, <strong>Python</strong>, and <strong>R</strong> for data analysis.</p>
-    <p><span class="prompt">user@jkuat:~$</span> ls skills/</p>
-    <p class="skills-list">Web_Dev  Automation  Systems_Prog  R_Lang  Data_Science</p>
-    <p><span class="prompt">user@jkuat:~$</span> R --version</p>
-    <p>R version 4.3.1 (2023-06-16) -- "Beagle Scouts"</p>
-    <p><span class="prompt">user@jkuat:~$</span> <span class="cursor">_</span></p>
-</div>
+            <div class="terminal-body">
+                <p><span class="prompt">user@jkuat:~$</span> cat about_me.md</p>
+                <p>I am a developer who masterfully handles <strong>HTML/CSS/JS</strong> for the frontend, while leveraging <strong>Python</strong>, <strong>R</strong>, and <strong>C++</strong> for heavy-lifting logic and data processing.</p>
+                <p><span class="prompt">user@jkuat:~$</span> ls -l languages/</p>
+                <p class="skills-list">Web_Dev  Automation  Systems_Prog  R_Data_Science</p>
+                <p><span class="prompt">user@jkuat:~$</span> R --version | head -n 1</p>
+                <p>R version 4.3.1 (2023-06-16) -- "Beagle Scouts"</p>
+                <p><span class="prompt">user@jkuat:~$</span> <span class="cursor">_</span></p>
+            </div>
         </div>
     </section>
 
     <section id="skills" class="container">
         <h2 class="section-title">Technical Stack</h2>
         <div class="skills-grid">
-    <div class="skill-card">
-        <i class="fab fa-html5"></i>
-        <h3>Frontend</h3>
-        <p>HTML5, CSS3, JavaScript (ES6+)</p>
-    </div>
-    <div class="skill-card">
-        <i class="fas fa-terminal"></i>
-        <h3>Scripting</h3>
-        <p>Python, Bash, Batch</p>
-    </div>
-    <div class="skill-card">
-        <i class="fas fa-chart-bar"></i> <h3>Data & Stats</h3>
-        <p>R Language, Tidyverse, Data Visualization</p>
-    </div>
-    <div class="skill-card">
-        <i class="fas fa-code"></i>
-        <h3>Systems</h3>
-        <p>C++, Git, LocalStorage</p>
-    </div>
-</div>
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, JavaScript (ES6+)</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-terminal"></i>
+                <h3>Scripting</h3>
+                <p>Python, Bash, Batch</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Science</h3>
+                <p>R Language, Tidyverse, Data Viz</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Systems</h3>
+                <p>C++, Git, Linux Environments</p>
+            </div>
+        </div>
     </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            
+            <div class="skill-card">
+                <i class="fas fa-tasks" style="font-size: 2rem; color: var(--primary);"></i>
+                <h3>Interactive Todo List</h3>
+                <p>A vanilla JS application utilizing LocalStorage for persistent task management.</p>
+                <a href="#" class="highlight" style="text-decoration: none; font-weight: bold;">View Source →</a>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database" style="font-size: 2rem; color: #276DC3;"></i>
+                <h3>R Data Analysis</h3>
+                <p>Statistical analysis of campus enrollment trends using R and ggplot2.</p>
+                <a href="#" class="highlight" style="text-decoration: none; font-weight: bold;">View Analysis →</a>
+            </div>
+
+        </div>
+    </section>
+
+#added section for projects
+<section id="projects" class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+        
+        <div class="skill-card">
+            <div class="project-tag">JavaScript</div>
+            <i class="fas fa-list-check"></i>
+            <h3>TaskFlow App</h3>
+            <p>A sophisticated Todo List using <strong>Vanilla JS</strong> and <strong>LocalStorage</strong>. Features custom categories and data persistence.</p>
+            <div class="project-links">
+                <a href="https://github.com/benyahmin" target="_blank">Code <i class="fab fa-github"></i></a>
+                <a href="#" class="demo">Live Demo</a>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="project-tag">R Language</div>
+            <i class="fas fa-chart-pie"></i>
+            <h3>JKUAT Enrollment Analysis</h3>
+            <p>Statistical analysis of student data using <strong>Tidyverse</strong> and <strong>ggplot2</strong> to visualize growth trends.</p>
+            <div class="project-links">
+                <a href="https://github.com/benyahmin" target="_blank">Notebook <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="project-tag">C++</div>
+            <i class="fas fa-microchip"></i>
+            <h3>Memory Manager</h3>
+            <p>A low-level system utility designed to simulate heap allocation and pointers in a <strong>C++</strong> environment.</p>
+            <div class="project-links">
+                <a href="https://github.com/benyahmin" target="_blank">Source <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="skill-card">
+            <div class="project-tag">Python & Bash</div>
+            <i class="fas fa-robot"></i>
+            <h3>Auto-Deploy Script</h3>
+            <p>A dual-language automation suite that uses <strong>Bash</strong> and <strong>Python</strong> to clean directories and push updates to GitHub.</p>
+            <div class="project-links">
+                <a href="https://github.com/benyahmin" target="_blank">Script <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+#added section for projects
 
     <footer id="contact">
         <p>&copy; 2024 Benjamin Mukungi Kithome | Kenyan Developer 🇰🇪</p>
         <div class="socials">
-            <a href="https://github.com/benyahmin"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/benyahmin" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:benjaminkithome2021@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
-
 </html>
-
-
-
